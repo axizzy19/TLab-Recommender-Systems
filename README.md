@@ -27,7 +27,7 @@
 Используется датасет KION:
 https://github.com/irsafilo/KION_DATASET
 
-Данные необходимо скачать отдельно и разместить в каталоге `data_original/`.
+Данные необходимо скачать отдельно и разместить в каталоге `data_original/`. [Скачать датасет.](https://drive.google.com/drive/folders/1DJFfzL9qFLGUG44aQjsoQ9aXwexMML3x?usp=sharing)
 
 ## Установка
 
