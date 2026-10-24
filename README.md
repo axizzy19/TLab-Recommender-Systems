@@ -32,28 +32,23 @@ https://github.com/irsafilo/KION_DATASET
 ## Установка
 
 ```bash
-git clone <URL_ВАШЕГО_РЕПОЗИТОРИЯ>
-cd recommender-systems-research
+git clone https://github.com/axizzy19/TLab-Recommender-Systems.git
+cd TLab-Recommender-Systems
 
-python -m venv .venv
+python -m venv venv_tlab-1
 ```
 
 Активация окружения:
 
-Windows:
 ```bash
-.venv\Scripts\activate
-```
-
-Linux/macOS:
-```bash
-source .venv/bin/activate
+venv_tlab-1\Scripts\activate
 ```
 
 Установка зависимостей:
 
 ```bash
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install jupyterlab notebook pandas numpy matplotlib seaborn scikit-learn catboost pyarrow tqdm
 ```
 
 Запуск Jupyter:
